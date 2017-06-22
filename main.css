@@ -1,0 +1,124 @@
+header {
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	background-color: #EEEEEE;
+	top: 0px;
+	left: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+header ul {
+	position: absolute;
+	right: 0px;
+	top: -20px;
+	font-size: 25px;
+}
+
+header ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header h2 {
+	margin-left: 20px;
+	margin-top: 6px;
+}
+
+
+header h2 a {
+	color: black;
+}
+
+.search {
+	position: absolute;
+	top: 75px;
+	left: 125px;
+	font-size: 17px;
+	
+}
+
+input[type="text"]{
+  width: 400px;	
+	border: 1px solid #EEEEEE;
+	border-radius: 4px;
+	padding-left: 5px;
+	font-size: 19px;
+	color: gray;
+}
+
+input[type="button"]{
+	width: 25px;
+	height: 25px;
+	background-image: url(magnifying-glass.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-top: 5px;
+}
+
+.continue {
+	position: absolute;
+	top: 175px;
+	left: 128px;
+}
+
+.continue ul {
+	padding-left: 0px;
+	font-size: 0px;
+}
+
+
+.continue li {
+	display: inline-block;
+	margin-right: 0px;
+	font-size: 19px;
+	border: 1px solid #EEEEEE;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.textbutton:hover {
+	text-decoration: underline;
+}
+
+.list {
+	position: relative;
+	top: 270px;
+	left: 80px;
+	font-size: 20px;
+}
+
+.list li{
+  display: inline-block;	
+}
+
+.date {
+	color: gray;
+	padding-right: 15px;
+}
+
+.location {
+	color: gray;
+	padding-left: 15px;
+}
+
+.job a{
+	color: blue;
+}
+
+.job a:active{
+	color: purple;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
